@@ -1,76 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beauty Center | About Us</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Center | About Us</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header class="sub-header about-header">
+  <header class="sub-header about-header">
+    <nav class="navbar container">
 
-<nav class="navbar container">
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-<a href="index.html" class="logo">Beauty <span>Center</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
 
-<div class="menu-toggle" id="menu-toggle">
-<span></span>
-<span></span>
-<span></span>
-</div>
+    <div class="sub-header-content container">
+      <h1>About Us</h1>
+      <p>Learn more about our story, values, and beauty philosophy.</p>
+    </div>
+  </header>
 
-<ul class="nav-links" id="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html" class="active">About Us</a></li>
-<li><a href="services.html">Services</a></li>
-</ul>
+  <main>
+    <section class="section container about-grid">
+      <div class="about-image fade-in">
+        <img src="images/about.jpg" alt="About Beauty Center">
+      </div>
 
-</nav>
+      <div class="about-text fade-in">
+        <span class="small-heading">Who We Are</span>
+        <h2>Your Trusted Destination for Beauty and Care</h2>
+        <p>
+          Beauty Center is a modern beauty center that offers elegant and
+          professional beauty services for women who value confidence, comfort,
+          and self-care.
+        </p>
+        <p>
+          Our mission is to create a relaxing experience while providing the best
+          quality services using trusted beauty products and modern techniques.
+        </p>
 
-<div class="sub-header-content container">
-<h1>About Us</h1>
-<p>Learn more about our story and beauty philosophy.</p>
-</div>
+        <h3>Our Beauty Team</h3>
 
-</header>
+        <div class="team-grid">
+          <div class="team-card">
+            <h4>Shimaa</h4>
+            <p>Professional Makeup</p>
+          </div>
 
+          <div class="team-card">
+            <h4>Layan</h4>
+            <p>Facial Care</p>
+          </div>
 
-<section class="section container about-grid">
+          <div class="team-card">
+            <h4>Noor</h4>
+            <p>Hair Styling</p>
+          </div>
 
-<div class="about-image">
-<img src="images/about.jpg">
-</div>
+          <div class="team-card">
+            <h4>Heba</h4>
+            <p>Nail Care</p>
+          </div>
 
-<div class="about-text">
+          <div class="team-card">
+            <h4>Rana</h4>
+            <p>Eyebrow & Lash Care</p>
+          </div>
 
-<span class="small-heading">Who We Are</span>
+          <div class="team-card">
+            <h4>Salma</h4>
+            <p>Skin Treatment</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<h2>Your Trusted Destination for Beauty and Care</h2>
+    <section class="values-section section">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Our Values</h2>
+          <p>These values define the experience we provide to every client.</p>
+        </div>
 
-<p>
-Beauty Center is a modern beauty center that offers elegant and
-professional beauty services for women who value confidence and comfort.
-</p>
+        <div class="values-grid">
+          <div class="value-card fade-in">
+            <h3>Quality</h3>
+            <p>We use trusted products and advanced beauty methods for the best results.</p>
+          </div>
 
-<p>
-Our mission is to provide the best beauty experience using modern
-techniques and trusted products.
-</p>
+          <div class="value-card fade-in">
+            <h3>Comfort</h3>
+            <p>We create a peaceful and stylish atmosphere for every visit.</p>
+          </div>
 
-</div>
+          <div class="value-card fade-in">
+            <h3>Confidence</h3>
+            <p>We help every client feel beautiful, refreshed, and confident.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <section class="section container fade-in">
+      <div class="section-title">
+        <h2>Why Choose Us?</h2>
+        <p>
+          Because we combine professional beauty services, elegant design,
+          careful attention to detail, and a warm, welcoming environment.
+        </p>
+      </div>
+    </section>
+  </main>
 
-<footer class="footer">
-<div class="container footer-content">
-<h3>Beauty Center</h3>
-<p>Enhancing beauty with elegance and confidence.</p>
-</div>
-</footer>
+  <footer class="footer">
+    <div class="container footer-content">
+      <h3>Beauty Center</h3>
+      <p>Enhancing beauty with elegance and confidence.</p>
+      <p>© 2026 Beauty Center. All Rights Reserved.</p>
+    </div>
+  </footer>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
