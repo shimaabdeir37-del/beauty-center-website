@@ -3,60 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beauty Center - Services</title>
+  <title>Beauty Center | Services</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <nav class="navbar">
-      <div class="logo">Beauty Center</div>
-      <ul class="nav-links">
+  <header class="sub-header services-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">Beauty <span>Center</span></a>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html" class="active">Services</a></li>
       </ul>
     </nav>
+
+    <div class="sub-header-content container">
+      <h1>Our Services</h1>
+      <p>Discover the beauty services we provide with elegance and care.</p>
+    </div>
   </header>
 
   <main>
-    <section class="page-header">
-      <h1>Our Services</h1>
-      <p>Explore the beauty services we offer.</p>
-    </section>
+    <section class="section container">
+      <div class="section-title fade-in">
+        <h2>Beauty Services</h2>
+        <p>
+          We offer a wide range of professional beauty services designed to help
+          you look and feel your best.
+        </p>
+      </div>
 
-    <section class="section">
-      <div class="cards">
-        <div class="card">
-          <h3>Facial Care</h3>
-          <p>Deep cleansing and skincare treatments for healthy and fresh skin.</p>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <img src="images/service-1.jpg" alt="Facial Care">
+          <div class="service-content">
+            <h3>Facial Care</h3>
+            <p>Deep cleansing and skincare treatments.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Hair Styling</h3>
-          <p>Modern haircuts, styling, and hair treatments for all hair types.</p>
+
+        <div class="service-card fade-in">
+          <img src="images/service-2.jpg" alt="Eyebrow and Lash Care">
+          <div class="service-content">
+            <h3>Eyebrow & Lash Care</h3>
+            <p>Professional eyebrow shaping and lash beauty care.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Makeup</h3>
-          <p>Professional makeup for weddings, parties, and special occasions.</p>
+
+        <div class="service-card fade-in">
+          <img src="images/service-3.jpg" alt="Nail Care">
+          <div class="service-content">
+            <h3>Nail Care</h3>
+            <p>Manicure and pedicure services for elegant nails.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Manicure & Pedicure</h3>
-          <p>Nail care services to keep your hands and feet beautiful and clean.</p>
+
+        <div class="service-card fade-in">
+          <img src="images/service-4.jpg" alt="Hair Styling">
+          <div class="service-content">
+            <h3>Hair Styling</h3>
+            <p>Modern hairstyles for everyday beauty and events.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Laser Sessions</h3>
-          <p>Safe and effective laser services with professional care.</p>
+
+        <div class="service-card fade-in">
+          <img src="images/service-5.jpg" alt="Skin Treatment">
+          <div class="service-content">
+            <h3>Skin Treatment</h3>
+            <p>Advanced treatments for healthy and glowing skin.</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>Massage</h3>
-          <p>Relaxing massage sessions to help you feel refreshed and comfortable.</p>
+
+        <div class="service-card fade-in">
+          <img src="images/service-6.jpg" alt="Professional Makeup">
+          <div class="service-content">
+            <h3>Professional Makeup</h3>
+            <p>Elegant makeup for parties, weddings, and special occasions.</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Beauty Center. All rights reserved.</p>
+  <footer class="footer">
+    <div class="container footer-content">
+      <h3>Beauty Center</h3>
+      <p>Enhancing beauty with elegance and confidence.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
